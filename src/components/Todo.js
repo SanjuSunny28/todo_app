@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import './ToDo.css'
 
-import { MdIncompleteCircle } from "react-icons/md";
-import { AiFillEdit ,AiFillDelete} from "react-icons/ai";
+
+import { AiFillDelete} from "react-icons/ai";
 
 const Todo = () => {
     const [todo, setToDo] = useState ('')
